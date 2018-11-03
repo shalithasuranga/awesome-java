@@ -14,3 +14,16 @@ t.schedule(new TimerTask() {
     }
 }, 2000);
 ```
+
+## setInterval in Java
+
+```java
+Timer t = new Timer();
+t.scheduleAtFixedRate(new TimerTask() {
+    @Override
+    public void run() {
+        System.out.println("After 1 seconds...");
+
+    }
+}, 1000, 1000);
+```
