@@ -22,7 +22,7 @@ Timer t = new Timer();
 t.scheduleAtFixedRate(new TimerTask() {
     @Override
     public void run() {
-        System.out.println("After 1 seconds...");
+        System.out.println("After 1 second...");
 
     }
 }, 1000, 1000);
