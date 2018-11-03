@@ -2,7 +2,7 @@
 Curated list of awesome Java snippets and commands :book:
 
 
-## setTimeout snippet
+## setTimeout in Java
 
 ```java
 Timer t = new Timer();
